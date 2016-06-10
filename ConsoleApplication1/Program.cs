@@ -5,7 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 
 /*
+        Структуры и перечисления
  В структуре не может быть конструктора по умолчанию
+ Нельзя определить деструктор
+ Нельзя определять модификатор доступа
+
      */
 
 namespace ConsoleApplication1
