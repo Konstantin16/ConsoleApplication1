@@ -71,14 +71,14 @@ namespace ConsoleApplication1
         {
 
 
-            //создание стека
-            Stack pers = new Stack();
-            //помещение объектов в стек
-            pers.Push(new Person(29, "Oleg", 2900));
-            pers.Push(new Person(31, "Dima", 3100));
-            pers.Push(new Person(44, "Boris", 4400));
+            ////создание стека
+            //Stack pers = new Stack();
+            ////помещение объектов в стек
+            //pers.Push(new Person(29, "Oleg", 2900));
+            //pers.Push(new Person(31, "Dima", 3100));
+            //pers.Push(new Person(44, "Boris", 4400));
 
-            Queue per = new Queue();
+            //Queue per = new Queue();
 
 
             //сколько в ней объектов
@@ -86,25 +86,27 @@ namespace ConsoleApplication1
 
 
             //добавление объекта в очередь
-            per.Enqueue(new Person(29, "Oleg", 2500));
-            per.Enqueue(new Person(31, "Dima", 4600));
-            per.Enqueue(new Person(28, "Anna", 37500));
-            Console.WriteLine("{0} {1} {2}", ((Person)per.Peek()).age,
-                ((Person)per.Peek()).name,
-                ((Person)per.Peek()).sallary);
-            Console.WriteLine();
-            per.Dequeue();
-            Console.WriteLine("{0} {1} {2}", ((Person)per.Peek()).age,
-               ((Person)per.Peek()).name,
-               ((Person)per.Peek()).sallary);
-            Console.WriteLine();
+            //per.Enqueue(new Person(29, "Oleg", 2500));
+            //per.Enqueue(new Person(31, "Dima", 4600));
+            //per.Enqueue(new Person(28, "Anna", 37500));
+            //Console.WriteLine("{0} {1} {2}", ((Person)per.Peek()).age,
+            //    ((Person)per.Peek()).name,
+            //    ((Person)per.Peek()).sallary);
+            //Console.WriteLine();
+            //per.Dequeue();
+            //Console.WriteLine("{0} {1} {2}", ((Person)per.Peek()).age,
+            //   ((Person)per.Peek()).name,
+            //   ((Person)per.Peek()).sallary);
+            //Console.WriteLine();
 
             /*
                 Работы со словарями 
                 Это наборы предназначеные для хранения пар ключ-значение или имя значение, поддерживающие поиск по ключу (по имени)
 
-             
+             В качестве ключа может быть использован любой тип данных
+
              */
+
         }
     }
 }
